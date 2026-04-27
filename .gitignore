@@ -1,0 +1,38 @@
+# ── Python ────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environment ───────────────────
+.venv/
+venv/
+env/
+
+# ── Environment variables (secrets!) ─────
+.env
+.env.local
+
+# ── ChromaDB (vector store data) ─────────
+chroma_db/
+
+# ── Node / Frontend ───────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── OS files ──────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Documentation (local) ──────────────────
+document.md
