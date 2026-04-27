@@ -1,10 +1,10 @@
-# 📚 Exam Revision Assistant
+#  Exam Revision Assistant
 
 A GenAI-powered study tool built with **RAG (Retrieval-Augmented Generation)**, **React + Vite** frontend, **Flask** API, and **Google Gemini**. Upload your PDFs and instantly get a revision plan, flashcards, a quiz, or chat with your notes — all grounded in your own study material.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -23,7 +23,7 @@ A GenAI-powered study tool built with **RAG (Retrieval-Augmented Generation)**, 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1 — Backend Setup (Python)
 
@@ -55,18 +55,18 @@ npm run dev            # → http://localhost:5173
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🗓️ **Revision Plan** | A personalized study schedule based on your uploaded notes. |
-| 🃏 **Flashcards** | Active-recall cards with hidden answers to test your memory. |
-| 📝 **Quiz** | Multiple-choice questions with instant scoring and explanations. |
-| 💬 **AI Chat** | Ask questions about your notes and get grounded answers instantly. |
+|  **Revision Plan** | A personalized study schedule based on your uploaded notes. |
+|  **Flashcards** | Active-recall cards with hidden answers to test your memory. |
+|  **Quiz** | Multiple-choice questions with instant scoring and explanations. |
+|  **AI Chat** | Ask questions about your notes and get grounded answers instantly. |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Exam_Revision_Assistant/
@@ -86,7 +86,7 @@ Exam_Revision_Assistant/
 
 ---
 
-## 🔄 How It Works (RAG Pipeline)
+##  How It Works (RAG Pipeline)
 
 1. **Upload**: PDFs are uploaded and split into optimized text chunks using `pdf_processor.py`.
 2. **Indexing**: Chunks are converted into vector embeddings using `gemini-embedding-001` and stored in a local **ChromaDB**.
@@ -95,7 +95,7 @@ Exam_Revision_Assistant/
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 *   **Python 3.10+**
 *   **Node.js 18+**
@@ -103,6 +103,6 @@ Exam_Revision_Assistant/
 
 ---
 
-## 🔒 Privacy
+##  Privacy
 
 Your study materials are processed in-memory and stored locally in the `./chroma_db/` folder. Data is only sent to the Google Gemini API for the purpose of generating embeddings and responses; it is never stored permanently on external servers by this application.
